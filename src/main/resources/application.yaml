@@ -1,0 +1,15 @@
+server:
+  port: 8088
+  servlet:
+    path: "*.do"
+logging:
+  level:
+    com.mazhuang.springboot: debug
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/ssm_crm
+    username: mazhuang
+    password: 123456
+mybatis:
+  type-aliases-package: com.mazhuang.springboot.pojo
